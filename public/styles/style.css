@@ -1,0 +1,39 @@
+body{
+    background-color: blue;
+}
+
+h1{
+
+    background-color: crimson;
+    text-align: center;
+}
+
+.allContainer{
+
+width: 90%;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+margin: 1em auto;
+
+}
+
+.container{
+
+width: 30%;
+margin: 1em;
+text-align: center;
+box-shadow: 5px 5px 5px 5px brown;
+background-color: crimson;
+
+
+}
+
+.container > img{
+
+width: 200px;
+height: 200px;
+border-radius: 10%;
+border: 2px solid black;
+
+}
